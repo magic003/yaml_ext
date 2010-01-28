@@ -1,0 +1,18 @@
+= yaml_ext
+
+Adds transient fields to yaml4r, the built in Ruby YAML serializer.
+
+== Getting Started
+
+1. Check example.rb for simplest usage
+
+== Meta
+Author: Minjie Zha (minjiezha@gmail.com)
+Revisions:
+  0.1 (2010-01-28) - Initial release
+
+== References
+* yaml_helper of xavier@rhnh.net
+    When I was searching how to make transient fields for yaml4r, I found yaml_helper. With it, you can set persistent field using 'persistent'. But what I wanted was 'transient', so I wrote my own, with most part inspired and copied from yaml_helper. You may check it out from:
+    1. http://rhnh.net/2006/06/25/yaml-tutorial
+    2. http://github.com/xaviershay/sandbox/tree/master/yaml_helper/
